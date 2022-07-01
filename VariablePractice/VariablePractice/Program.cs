@@ -6,7 +6,10 @@ namespace VariablePractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string dogName = "Meeka";
+            int dogAge = 3;
+
+            Console.WriteLine($"My dog\'s name is {dogName}, She is {dogAge} years old.");
         }
     }
 }
